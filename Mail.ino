@@ -2,8 +2,8 @@
 #include <ArduinoJson.h>
 #include <ArduinoHttpClient.h>
 
-const char* ssid = "Ankush"; // Your WiFi network name
-const char* pass = "12345678"; // Your WiFi password
+const char* ssid = "Ankush"; // WiFi network name
+const char* pass = "12345678"; // WiFi password
 
 const char* IFTTT_WEBHOOK_EVENT = "doorLock"; // IFTTT event name
 const char* IFTTT_KEY = "djmTxByajgaXmwohDns7rvPK_Nsk553vDqSaO1saWzK"; // IFTTT Maker Webhooks key
