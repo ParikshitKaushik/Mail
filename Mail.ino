@@ -20,7 +20,7 @@ WiFiClient wifi; // Create a WiFiClient instance
 HttpClient client = HttpClient(wifi, server, port); // Create an HttpClient instance for IFTTT
 
 void setup() {
-  Serial.begin(115200); // Initialize serial communication
+  Serial.begin(9600); // Initialize serial communication
   delay(10);
 
   pinMode(buttonPin, INPUT_PULLUP);  // Configure the pin for the push button and use the internal pull-up resistor
